@@ -3,34 +3,18 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  root: {
-    
-  },
+  root: { },
 
-  appBar: {
-    backgroundColor: theme.palette.background.default
-  },
+  appBar: { },
 
-  toolBar: {
-  },
+  toolBar: { },
 
-  logo: {
-    height: 40
-  },
+  logo: { },
 
-  select: {
-    marginLeft: "auto",
-    textTransform: "uppercase",
-    width: 80
-  },
+  select: { },
 
-  menuItem: {
-    textTransform: "uppercase"
-  },
+  menuItem: { },
 
-  button: {
-    marginLeft: 20,
-    textTransform: "initial"
-  },
+  button: { },
 
 });

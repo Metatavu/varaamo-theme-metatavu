@@ -2,37 +2,20 @@ import { createStyles } from "@material-ui/core";
 
 export const styles = createStyles({
 
-  root: {
-    padding: 25
-  },
+  root: { },
 
-  infoContainer: {
-    width: "100%",
-    display: "flex",
-  },
+  infoContainer: { },
 
-  infoTextContainer: {
-    width: "80%"
-  },
+  infoTextContainer: { },
 
-  title: {
-  },
+  title: { },
 
-  description: {
-    marginTop: "25px"
-  },
+  description: { },
 
-  infoIconsContainer: {
-    width: "20%"
-  },
+  infoIconsContainer: { },
 
-  imageContainer: {
-    width: "100%",
-    minHeight: 400,
-  },
+  imageContainer: { },
 
-  resourceImage: {
-    width: "100%",
-  }
+  resourceImage: { }
 
 });

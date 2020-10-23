@@ -3,43 +3,24 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  root: {},
+  root: { },
 
-  appBar: {},
+  appBar: { },
 
-  toolBar: {
-    width: "100%"
-  },
+  toolBar: { },
 
-  homeButton: {
-    color: theme.palette.common.white,
-    textTransform: "initial",
-    fontWeight: "bold"
-  },
+  homeButton: { },
 
-  toolBarDesktopContent: {
-    width: "100%"
-  },
+  toolBarDesktopContent: { },
 
-  toolBarMobileContent: {
-    marginLeft: "auto"
-  },
+  toolBarMobileContent: { },
 
-  desktopList: {
-    display: "flex"
-  },
+  desktopList: { },
 
-  mobileList: {},
+  mobileList: { },
 
-  menuItem: {
-    "&:nth-of-type(3)": {
-      marginLeft: "auto"
-    }
-  },
+  menuItem: { },
 
-  mobileMenuButton: {
-    marginLeft: "auto",
-    color: theme.palette.common.white
-  }
+  mobileMenuButton: { }
 
 });

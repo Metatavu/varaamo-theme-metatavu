@@ -2,12 +2,8 @@ import { createStyles } from "@material-ui/core";
 
 export const styles = createStyles({
 
-  root: {
-    display: "flex"
-  },
+  root: { },
 
-  datepicker: {
-    flex: 1
-  },
+  datepicker: { },
 
 });

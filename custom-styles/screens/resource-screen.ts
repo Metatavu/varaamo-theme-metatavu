@@ -4,33 +4,14 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  container: {
-    flex: 1,
-    flexGrow: 1,
-    display: "flex",
-    flexDirection: "column",
-    marginLeft: "auto",
-    marginRight: "auto",
-    backgroundColor: theme.palette.background.default,
-    maxWidth: 1200
-  },
+  container: { },
 
-  reservationContainer: {
-    display: "flex"
-  },
+  reservationContainer: { },
 
-  datePickerContainer: {
-    flexGrow: 1,
-    maxWidth: "50%"
-  },
+  datePickerContainer: { },
 
-  dateListContainer: {
-    flexGrow: 1,
-    maxWidth: "50%"
-  },
+  dateListContainer: { },
 
-  reserveButton: {
-    
-  }
+  reserveButton: { }
 
 });

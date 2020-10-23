@@ -3,60 +3,20 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  root: {
-    [theme.breakpoints.up("md")]: {
-      minWidth: 280,
-      width: 280
-    }
-  },
+  root: { },
 
-  drawerContent: {
-    backgroundColor: theme.palette.primary.main,
-    height: "100%",
-    minWidth: 280
-  },
+  drawerContent: { },
 
-  logoArea: {
-    height: 200,
-    padding: 50,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#ffffff"
-  },
+  logoArea: { },
 
-  logo: {
-    width: "90%"
-  },
+  logo: { },
 
-  logoTextArea: {
-    paddingTop: 50,
-    display: "flex",
-    justifyContent: "center",
-  },
+  logoTextArea: { },
 
-  logoText: {
-    textTransform: "uppercase",
-    fontSize: 26,
-    fontWeight: "bold",
-    color: theme.palette.common.white
-  },
+  logoText: { },
 
-  menu: {
-    height: "calc(100% - 150px)",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-start",
-    alignItems: "stretch"
-  },
+  menu: { },
 
-  menuItem: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 20,
-    color: theme.palette.common.white
-  }
+  menuItem: { }
 
 });
