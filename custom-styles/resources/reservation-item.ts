@@ -3,27 +3,14 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  container: {
-  },
+  container: { },
 
-  checkBox: {
-    color: theme.palette.primary.main
-  },
+  checkBox: { },
 
-  timeText: {
-    paddingLeft: 10
-  },
+  timeText: { },
 
-  reservationText: {
-    marginLeft: "50%"
-  },
+  reservationText: { },
 
-  dataContainer: {
-    display: "flex",
-    alignItems: "center",
-    "& .MuiCheckbox-colorSecondary.Mui-checked" : {
-      color: theme.palette.primary.main
-    }
-  }
+  dataContainer: { }
 
 });

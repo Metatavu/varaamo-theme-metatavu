@@ -2,19 +2,10 @@ import { createStyles } from "@material-ui/core";
 
 export const styles = createStyles({
 
-  container: {
-    
-  },
+  container: { },
 
-  iconContainer: {
-    marginTop: 10,
-    marginBottom: 10,
-    display: "flex",
-    flexDirection: "row"
-  },
+  iconContainer: { },
 
-  iconText: {
-    marginLeft: 10
-  }
+  iconText: { }
 
 });

@@ -3,24 +3,12 @@ import theme from "../../theme";
 
 export const styles = createStyles({
 
-  root: {
-    padding: 25
-  },
+  root: { },
 
-  headerContainer: {
-    display: "flex",
-    alignItems: "center",
-    backgroundColor: theme.palette.secondary.main,
-    minHeight: 70,
-    color: "#ffffff"
-  },
+  headerContainer: { },
 
-  timeText: {
-    paddingLeft: 10
-  },
+  timeText: { },
 
-  reservationText: {
-    marginLeft: "50%"
-  },
+  reservationText: { },
 
 });
