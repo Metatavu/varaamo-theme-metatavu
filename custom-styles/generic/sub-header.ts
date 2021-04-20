@@ -1,15 +1,23 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   root: { },
 
-  appBar: { },
+  appBar: { 
+    position: "fixed",
+    top: 64,
+    justifyContent: "center"
+  },
 
-  toolBar: { },
+  toolBar: { 
+    backgroundColor: theme.palette.primary.main
+  },
 
-  homeButton: { },
+  homeButton: {
+    fontSize: 16
+  },
 
   toolBarDesktopContent: { },
 
@@ -19,7 +27,10 @@ export const styles = createStyles({
 
   mobileList: { },
 
-  menuItem: { },
+  menuItem: {
+    textTransform: "initial",
+    fontWeight: "bold"
+  },
 
   mobileMenuButton: { }
 

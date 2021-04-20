@@ -1,11 +1,13 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   container: { },
 
-  checkBox: { },
+  checkBox: {
+    color: theme.palette.primary.main
+  },
 
   timeText: { },
 

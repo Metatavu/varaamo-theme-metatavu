@@ -6,14 +6,14 @@ export default createMuiTheme({
 
   palette: {
     primary: {
-      main: "#EA5B0C"
+      main: "#121212"
     },
     secondary: {
-      main: "#575757"
+      main: "#FF4438"
     },
     background: {
       default: "#FFFFFF",
-      paper: "#F7F9FC"
+      paper: "#F5F5F5"
     },
     success: {
       main: "#61C88D"
@@ -23,7 +23,8 @@ export default createMuiTheme({
     },
     text: {
       primary: "#252729",
-      disabled: "#C2C9CF"
+      disabled: "#C2C9CF",
+      secondary: "#fff"
     },
     grey: {
       "100": "#252729",
@@ -42,7 +43,9 @@ export default createMuiTheme({
     }
   },
 
-  typography: {},
+  typography: {
+    fontFamily: "Poppins, Helvetica, Arial, sans-serif"
+  },
 
   overrides: {
     MuiCssBaseline: {
@@ -163,7 +166,7 @@ export default createMuiTheme({
         }
       },
       daySelected: {
-        backgroundColor: "#EA5B0C",
+        backgroundColor: "#121212",
         color: "#fff"
       }
     },

@@ -3,11 +3,14 @@ import theme from "../../theme";
 
 export default createStyles({
 
+  root: { },
+
+  list: { },
+
   container: { },
 
   card: { 
-    backgroundColor: theme.palette.secondary.main,
-    borderRadius: 50,
+    backgroundColor: theme.palette.secondary.main
   },
 
   cardContent: { },

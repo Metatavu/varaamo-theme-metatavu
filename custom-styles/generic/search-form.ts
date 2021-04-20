@@ -1,7 +1,7 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   root: { },
 
@@ -13,6 +13,12 @@ export const styles = createStyles({
 
   formSubmit: { },
 
-  searchButton: { },
+  searchButton: {
+    backgroundColor: theme.palette.secondary.main
+  },
+  
+  clearButton: {
+    backgroundColor: theme.palette.primary.main
+  },
 
 });
