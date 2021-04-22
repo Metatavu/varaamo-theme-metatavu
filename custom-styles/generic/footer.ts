@@ -3,7 +3,10 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: { },
+  root: { 
+    backgroundColor: theme.palette.primary.main,
+    minHeight:0
+  },
 
   container: { },
 
@@ -13,10 +16,18 @@ export default createStyles({
 
   logo: { },
 
-  appTitleText: { },
+  appTitleText: {
+    textAlign: "center",
+    width: "100%",
+    fontSize: "1.3rem"
+  },
 
-  secondColumn: { },
+  secondColumn: {
+    textAlign: "center"
+  },
 
-  thirdColumn: { },
+  thirdColumn: {
+    justifyContent: "center"
+  },
 
 });

@@ -2,9 +2,11 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
-  container: { },
+  container: { 
+    paddingInline: theme.spacing(4)
+  },
 
   heading: { },
 

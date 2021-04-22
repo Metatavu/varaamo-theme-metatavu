@@ -3,12 +3,14 @@ import theme from "../../theme";
 
 export default createStyles({
 
-  root: { },
+  container: { },
 
-  headerContainer: { },
+  heading: { },
 
-  timeText: { },
+  subheading: {
+    maxWidth: "45ch"
+  },
 
-  reservationText: { },
+  description: { }
 
 });

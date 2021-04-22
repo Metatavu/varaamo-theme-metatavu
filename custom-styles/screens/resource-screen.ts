@@ -2,7 +2,7 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   container: { },
 
@@ -12,6 +12,18 @@ export const styles = createStyles({
 
   dateListContainer: { },
 
-  reserveButton: { }
+  cancelButton: {
+    backgroundColor: theme.palette.primary.main
+  },
+
+  reserveButton: {
+    backgroundColor: theme.palette.secondary.main
+  },
+
+  selected: {
+    height: 48,
+    color: "white",
+    backgroundColor: theme.palette.primary.main,
+  },
 
 });

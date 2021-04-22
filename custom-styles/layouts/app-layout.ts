@@ -1,10 +1,15 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   root: { },
 
-  content: { }
+  content: {
+    top: 120,
+    position: "relative",
+    backgroundColor: theme.palette.background.default,
+    marginBottom: 128,
+  }
 
 });

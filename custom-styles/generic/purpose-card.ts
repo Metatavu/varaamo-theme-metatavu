@@ -1,11 +1,14 @@
 import { createStyles } from "@material-ui/core";
 import theme from "../../theme";
 
-export const styles = createStyles({
+export default createStyles({
 
   container: { },
 
-  card: { },
+  card: { 
+    backgroundColor: theme.palette.secondary.main,
+    borderRadius: 50,
+  },
 
   cardContent: { },
 
